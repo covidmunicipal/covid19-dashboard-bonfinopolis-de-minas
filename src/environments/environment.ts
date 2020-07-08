@@ -6,18 +6,18 @@ export const environment = {
   buildVersion: 'debug',
   production: false,
   firebase: {
-    apiKey: 'AIzaSyCy5bYwOvW0q6fK4bWua8oMXM1SAJXxzKQ',
-    authDomain: 'covid19-municipal.firebaseapp.com',
-    databaseURL: 'https://covid19-municipal.firebaseio.com',
-    projectId: 'covid19-municipal',
-    storageBucket: 'covid19-municipal.appspot.com',
-    messagingSenderId: '886717395582',
-    appId: '1:886717395582:web:09f26fde75c6aa9b315e2f',
-    measurementId: 'G-9S7453NBQZ'
+    apiKey: "AIzaSyBsuUsm7wT93b4RvJbBaM4jCGBlWiHz_Nw",
+    authDomain: "radar-covid-bonfinopolis.firebaseapp.com",
+    databaseURL: "https://radar-covid-bonfinopolis.firebaseio.com",
+    projectId: "radar-covid-bonfinopolis",
+    storageBucket: "radar-covid-bonfinopolis.appspot.com",
+    messagingSenderId: "974807591803",
+    appId: "1:974807591803:web:f2e33df61538556d94ebde",
+    measurementId: "G-G6Y6XXZ9W1"
   },
-  spreadsheetId: '1-a543uhVSRItc7P4tZPiHBvz5bwUH0zQLn5b8hNbehg',
-  appName: 'Radar Coronavírus Irará',
-  targetLocation: 'Irará'
+  spreadsheetId: '1fveoSvn9oN5kJ-HxGUNffkxQ0F9Z5STlh7p3VNiVuOY',
+  appName: 'Radar Coronavírus Bonfinópolis de Minas',
+  targetLocation: 'Bonfinópolis de Minas'
 };
 
 /*

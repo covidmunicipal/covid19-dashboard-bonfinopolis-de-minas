@@ -74,7 +74,7 @@ export class HomePage implements OnInit {
     });
 
     tippy('#notified-tooltip', {
-      content: `É o número de casos confirmados em ${environment.targetLocation} segundo a Secretaria de Saúde do Estado da Bahia, e não engloba testes rápidos. Este dado é fornecido pelo Brasil.IO.`
+      content: `É o número de casos confirmados em ${environment.targetLocation} segundo a Secretaria de Saúde do Estado de Minas Gerais, e não engloba testes rápidos. Este dado é fornecido pelo Brasil.IO.`
     });
 
     tippy('#monitored-tooltip', {

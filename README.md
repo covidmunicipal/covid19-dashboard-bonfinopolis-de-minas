@@ -4,7 +4,7 @@
 ![Release version](https://img.shields.io/github/v/release/covidmunicipal/covid19-dashboard-irara)
 ![Website status](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fcovid.riso.dev)
 
-Plataforma para acompanhamento do novo Coronavírus (COVID-19) na cidade de Irará/BA.
+Plataforma para acompanhamento do novo Coronavírus (COVID-19) na cidade de Bonfinópolis de Minas/MG.
 
 _Este repositório agora contém apenas o dashboard. Se está em busca dos outros projetos que estavam disponíveis anteriormente aqui, visite a [página do COVID19 Municipal no GitHub](https://github.com/covidmunicipal)._
 
@@ -14,7 +14,7 @@ Sinta-se livre para contribuir com o projeto e adaptá-lo para outros propósito
 
 ## Download de dados
 
-Se está em busca dos dados coletados sobre o Coronavírus em Irará, acesse a [planilha do Google Sheets](https://docs.google.com/spreadsheets/d/1-a543uhVSRItc7P4tZPiHBvz5bwUH0zQLn5b8hNbehg). Você também pode obter um arquivo `.json` na [seção Sobre da plataforma de acompanhamento](https://covid.riso.dev/about), selecionando a opção _Acesse o banco de dados_. Os dados da Secretaria de Saúde da Bahia (SESAB) podem ser visualizados no [Brasil.IO](https://brasil.io/covid19/BA/).
+Se está em busca dos dados coletados sobre o Coronavírus em Bonfinópolis, acesse a [planilha do Google Sheets](https://docs.google.com/spreadsheets/d/1fveoSvn9oN5kJ-HxGUNffkxQ0F9Z5STlh7p3VNiVuOY). Você também pode obter um arquivo `.json` na [seção Sobre da plataforma de acompanhamento](https://covid.guilhermeasper.com.br/about), selecionando a opção _Acesse o banco de dados_. Os dados da Secretaria de Saúde de Minas Gerais (SESMG) podem ser visualizados no [Brasil.IO](https://brasil.io/covid19/BA/).
 
 ## Configurando
 
@@ -55,6 +55,6 @@ Quando o pull request for aceito, o deploy será feito automaticamente para o pr
 
 ## Sobre
 
-Este projeto é mantido com muito carinho por [Erick Almeida](https://github.com/erick2280), [Diego Silva](https://github.com/di3goCS) e [contribuidores](https://github.com/orgs/covidmunicipal/people).
+Este projeto é mantido com muito carinho por [Guilherme Afonso](https://github.com/guilhermeasper) e [contribuidores](https://github.com/orgs/covidmunicipal/people).
 
 O projeto foi inspirado no [covid19india](https://github.com/covid19india) e no [covid19japan](https://github.com/reustle/covid19japan). Além dos dados coletados pelo projeto, também utilizamos os dados disponibilizados pelo projeto [Brasil.IO](https://brasil.io/).

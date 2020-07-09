@@ -1,8 +1,8 @@
 # ![COVID-19 Municipal](src/assets/logos/covid19-municipal.svg)
 
-![Build status](https://img.shields.io/github/workflow/status/covidmunicipal/covid19-dashboard-irara/build)
-![Release version](https://img.shields.io/github/v/release/covidmunicipal/covid19-dashboard-irara)
-![Website status](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Firara.covidmunicipal.live)
+![Build status](https://img.shields.io/github/workflow/status/covidmunicipal/covid19-dashboard-bonfinopolis-de-minas/build)
+![Release version](https://img.shields.io/github/v/release/covidmunicipal/covid19-dashboard-bonfinopolis-de-minas)
+![Website status](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fbonfinopolismg.covidmunicipal.live)
 
 Plataforma para acompanhamento do novo Coronavírus (COVID-19) na cidade de Bonfinópolis de Minas/MG.
 
@@ -14,7 +14,7 @@ Sinta-se livre para contribuir com o projeto e adaptá-lo para outros propósito
 
 ## Download de dados
 
-Se está em busca dos dados coletados sobre o Coronavírus em Bonfinópolis, acesse a [planilha do Google Sheets](https://docs.google.com/spreadsheets/d/1fveoSvn9oN5kJ-HxGUNffkxQ0F9Z5STlh7p3VNiVuOY). Você também pode obter um arquivo `.json` na [seção Sobre da plataforma de acompanhamento](https://covid.guilhermeasper.com.br/about), selecionando a opção _Acesse o banco de dados_. Os dados da Secretaria de Saúde de Minas Gerais (SESMG) podem ser visualizados no [Brasil.IO](https://brasil.io/covid19/BA/).
+Se está em busca dos dados coletados sobre o Coronavírus em Bonfinópolis, acesse a [planilha do Google Sheets](https://docs.google.com/spreadsheets/d/1fveoSvn9oN5kJ-HxGUNffkxQ0F9Z5STlh7p3VNiVuOY). Você também pode obter um arquivo `.json` na [seção Sobre da plataforma de acompanhamento](https://bonfinopolismg.covidmunicipal.live/about), selecionando a opção _Acesse o banco de dados_. Os dados da Secretaria de Saúde de Minas Gerais (SES-MG) podem ser visualizados no [Brasil.IO](https://brasil.io/covid19/MG/).
 
 ## Configurando
 

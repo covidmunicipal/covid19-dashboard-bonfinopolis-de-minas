@@ -2,11 +2,11 @@
 
 ![Build status](https://img.shields.io/github/workflow/status/covidmunicipal/covid19-dashboard-irara/build)
 ![Release version](https://img.shields.io/github/v/release/covidmunicipal/covid19-dashboard-irara)
-![Website status](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fcovid.riso.dev)
+![Website status](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Firara.covidmunicipal.live)
 
 Plataforma para acompanhamento do novo Coronavírus (COVID-19) na cidade de Bonfinópolis de Minas/MG.
 
-_Este repositório agora contém apenas o dashboard. Se está em busca dos outros projetos que estavam disponíveis anteriormente aqui, visite a [página do COVID19 Municipal no GitHub](https://github.com/covidmunicipal)._
+_Este repositório agora contém apenas o dashboard. Se está em busca dos outros projetos que estavam disponíveis anteriormente aqui, visite a [página do COVID-19 Municipal no GitHub](https://github.com/covidmunicipal)._
 
 Sinta-se livre para contribuir com o projeto e adaptá-lo para outros propósitos! ❤
 
@@ -51,7 +51,7 @@ Primeiro, altere o atributo `version` no arquivo `package.json` com o novo núme
 
 Depois, realize um pull request para a branch `release`.
 
-Quando o pull request for aceito, o deploy será feito automaticamente para o projeto `covid19-municipal` (covid.riso.dev) no Firebase.
+Quando o pull request for aceito, o deploy será feito automaticamente para o projeto `covid19-municipal` (irara.covidmunicipal.live) no Firebase.
 
 ## Sobre
 

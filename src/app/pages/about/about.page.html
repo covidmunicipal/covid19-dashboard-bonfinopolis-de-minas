@@ -1,0 +1,57 @@
+<ion-header [translucent]="true" class="ion-hide-lg-up">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Sobre</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="vertical-spacer ion-hide-lg-down"></div>
+
+  <ion-toolbar class="ion-hide-lg-down">
+    <ion-title class="ion-padding-horizontal"><h1>Sobre</h1></ion-title>
+  </ion-toolbar>
+
+  <div class="ion-padding">
+    <img class="ion-padding-top" src="../../assets/logos/covid19-municipal.svg">
+    <p>O Radar Coronavírus Bonfinópolis de Minas é parte do projeto de código aberto <a href="https://github.com/covidmunicipal">COVID-19 Municipal</a>, mantido com muito carinho por <a href="https://github.com/guilhermeasper">Guilherme Afonso</a> e <a href="https://github.com/orgs/covidmunicipal/people">contribuidores</a>.</p>
+    
+    <ul class="button-set ion-no-margin ion-padding-top">
+      <li>
+      <ion-button href="https://github.com/covidmunicipal/covid19-dashboard-bonfinopolis-de-minas" class="font-bold" shape="round" fill="outline" color="dark">
+        <ion-icon slot="start" name="logo-github"></ion-icon>
+        Contribua no GitHub
+      </ion-button>
+      </li>
+      <li>
+      <ion-button [href]="databaseUrl" target="_blank" class="font-bold" shape="round" fill="outline" color="success">
+        <ion-icon slot="start" name="server"></ion-icon>
+        Acesse o banco de dados
+      </ion-button>
+      </li>
+      <li>
+      <ion-button href="mailto:eusou@erickalmeida.com.br" class="font-bold" shape="round" fill="outline" color="primary">
+        <ion-icon slot="start" name="chatbubble-ellipses"></ion-icon>
+        Envie um feedback
+      </ion-button>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="ion-padding">
+    <div *ngFor="let faqEntry of faqEntries">
+    <h2 class="font-bold font-alternative">
+      {{ faqEntry.question }}
+    </h2>
+    <p [innerHTML]="faqEntry.answer"></p>
+    </div>
+  </div>
+
+  <div class="ion-padding">
+    <p class="font-uppercase-small font-bold font-alternative" *ngIf="buildData.production">covid19-dashboard-bonfinopolis-de-minas v{{ buildData.buildVersion }}</p>
+    <p class="font-uppercase-small font-bold font-alternative" *ngIf="!buildData.production">covid19-dashboard-bonfinopolis-de-minas running on debug mode</p>
+  </div>
+</ion-content>

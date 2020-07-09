@@ -1,8 +1,8 @@
 import { version } from '../../package.json';
 
 export const environment = {
-    buildVersion: 'debug',
-    production: false,
+    buildVersion: version,
+    production: true,
     firebase: {
       apiKey: "AIzaSyBsuUsm7wT93b4RvJbBaM4jCGBlWiHz_Nw",
       authDomain: "radar-covid-bonfinopolis.firebaseapp.com",
